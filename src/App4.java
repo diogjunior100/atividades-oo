@@ -8,16 +8,18 @@ public class App4 {
         Scanner sc = new Scanner(System.in);
 
         int r,a1,n;
-        int an;
+        int an = 0, soma = 0;
 
         r = sc.nextInt();
         a1 = sc.nextInt();
         n = sc.nextInt();
 
-        for(int i = 0; i<=n; i = i + r){
-            an = a1 + ((n-1)*r);
+        for(int i = 1; i<=n; i++){
+            an = a1 + ((i-1)*r);
+            soma = soma + an;
             System.out.printf("%d ", an);
 
         }
+        System.out.println("Soma: "+ soma);
     }
 }
