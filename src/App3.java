@@ -8,34 +8,39 @@ public class App3 {
         Scanner sc = new Scanner(System.in);
 
         int l1,l2,l3,l4;
-        int somat;
-        int somaq;
+        int raio;
+        int somat, somaq, somac;
+
 
         System.out.println("Informe a figura geometrica: ");
         String figura = sc.next();
 
-        if(figura == "triangulo"){
+        if(figura.equals("triangulo")){
             l1 = sc.nextInt();
             l2 = sc.nextInt();
             l3 = sc.nextInt();
 
             somat = l1+l2+l3;
-            System.out.println(somat);
+            System.out.println("Esse eh o perimetro do triangulo " + somat);
             
         }
 
-        else if(figura == "quadrado"){
+        else if(figura.equals("quadrado")){
             l1 = sc.nextInt();
             l2 = sc.nextInt();
             l3 = sc.nextInt();
             l4 = sc.nextInt();
-            somat = l1+l2+l3+l4;
-            System.out.println(somat);
+            somaq = l1+l2+l3+l4;
+            System.out.println("Esse eh o perimetro do quadrado " + somaq);
 
         }
 
-        else if(figura == "circulo"){
-
+        else if(figura.equals("circulo") || figura.equals("CIRCULO")){
+            System.out.println("Apresente o raio: ");
+            raio = sc.nextInt();
+            somac = 2*3*raio;
+            System.out.println("Esse eh o perimetro do circulo " + somac);
+            
 
         }
         
