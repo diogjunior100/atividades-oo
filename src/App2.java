@@ -1,6 +1,8 @@
+import javax.swing.JOptionPane;
+
 public class App2 {
 
-    public static void name(String[] args) {
+    public static void main(String[] args) {
         
         String nome;
         nome = JOptionPane.showInputDialog(null, " Seu nome: ");
