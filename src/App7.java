@@ -35,14 +35,18 @@ public class App7 {
         System.out.println("Imprimindo as matrizes");
         for(int i = 0; i<n; i++){
             for(int j = 0; j<m; j++){
-                System.out.printf("%d", matriz[i][j]);
+                System.out.printf("%d ", matriz[i][j]);
             }
+            System.out.println();
         }
+
+        System.out.println();
 
         for(int a = 0; a<n; a++){
             for(int b = 0; b<m; b++){
-                System.out.printf("%d", matriz2[a][b]);
+                System.out.printf("%d ", matriz2[a][b]);
             }
+            System.out.println();
         }
 
     }
