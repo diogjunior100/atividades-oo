@@ -4,7 +4,9 @@ Welcome to the VS Code Java world. Here is a guideline to help you get started t
 
 ## Folder Structure
 
-atividades Orientação a Objeto - UnB Gama
+Atividades Orientação a Objeto - UnB Gama
+Primeira Lista - turma Orientação a Objeto
+
 
 ## Dependency Management
 
