@@ -6,6 +6,7 @@ public class App9 {
     static int n;
     static int r;
     static int pa[];
+    static int soma;
 
     public static void main(String[] args) {
 
@@ -36,8 +37,19 @@ public class App9 {
         }
         resposta += "]";
         JOptionPane.showMessageDialog(null, resposta);
-
-
         
+        soma = somaTermos();
+        String resposta2 = "A soma dos termos da PA é " + soma + ".";
+        JOptionPane.showMessageDialog(null, resposta2);
+        
+        
+    }
+
+    static int somaTermos() {
+        int resposta = 0;
+        for(int i = 0; i < pa.length; i++){
+            resposta += pa[i];
+        }
+        return resposta;
     }
 }
